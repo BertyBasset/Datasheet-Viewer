@@ -43,6 +43,25 @@ body{
     color: #0000D0;
     background-color: aliceblue;
 }
+.pdflink .tooltip {
+    visibility: hidden;
+    width: auto;
+    background-color: cornsilk;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #00000080;
+    position: absolute;
+   
+    /* Position the tooltip text - see examples below! */
+    /*position:absolute;*/
+    z-index: 1;
+}
+
+.pdflink:hover .tooltip{
+    visibility: visible;
+}
 #searchbar{
     min-height: 25px;
 }
