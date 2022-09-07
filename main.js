@@ -1,20 +1,37 @@
-var index;
+var index = [];
 
 var items = [];
 var subjects = {};
 
 window.addEventListener('load', function () {
+    let files = 0;
+
     fetch("./pdfData.json")
     .then((response) => response.json())
-    .then((data) => main(data))
+    .then((data) => {
+        index = index.concat(data);
+        files++;
+        if(files >= 2) {
+            main();
+        }
+    });
+
+    fetch("./extras.json")
+    .then((response) => response.json())
+    .then((data) => {
+        index = index.concat(data);
+        files++;
+        if(files >= 2) {
+            main();
+        }
+    })
 })
 
-function main(json) {
-    index = json;
+function main() {
     
     let list = document.getElementById("list");
     
-    for(pdf of json.index) {
+    for(pdf of index.sort((a, b) => a.Title.localeCompare(b.Title))) {
         if(!(pdf.Subject in subjects)) {
             let container = document.createElement("li");
             let subject = document.createElement("ul");
@@ -37,7 +54,7 @@ function main(json) {
 
         let tooltip = document.createElement('span');
         tooltip.className = 'tooltip';
-        tooltip.innerText = `Title: ${pdf.Title}\nSubject: ${pdf.Subject}\nAuthor: ${pdf.Author}\nPages: ${pdf.Pages}\nKeywords: ${pdf.Keywords.map((k) => "\n • " + k)}`;
+        tooltip.innerText = `Title: ${pdf.Title}\nSubject: ${pdf.Subject}\nAuthor: ${pdf.Author}\nPages: ${pdf.Pages}\nKeywords: ${pdf.Keywords.map((k) => "\n\u00a0\u00a0\u00a0\u2022\u00a0\u00a0" + k)}.`;
         //tooltip.onclick = function(e) {
         //    e.target.style.visibility = 'hidden';
         //}

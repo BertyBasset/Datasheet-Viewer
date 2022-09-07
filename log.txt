@@ -1,0 +1,14 @@
+Amplifiers\UA759U1C single Power Op Amp.pdf
+Analog-Digital Convertors\AD558 uP compat 8bit DAC.pdf
+Analog-Digital Convertors\AD7579_80 10 bit ADC.pdf
+Capacitor\NEO_5F_6V.pdf
+ElectronicsReference.pdf
+Logic ICs\40181 4bit ALU.pdf
+Logic ICs\40181.pdf
+Logic ICs\40245.pdf
+Logic ICs\CMOS 4000 series - Motorola.pdf
+Logic ICs\TTL -All.pdf
+Memory\NMC27C32BQ 4k EPROM.pdf
+Microcontrollers\2.13inch_e-Paper_Datasheet.pdf
+Microcontrollers\WaveShare 2.13inch e-Paper.pdf
+Voltage Regulators\TL783 125 Adjustable VReg.pdf
