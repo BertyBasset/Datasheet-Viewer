@@ -2,7 +2,7 @@ Amplifiers\UA759U1C single Power Op Amp.pdf
 Analog-Digital Convertors\AD558 uP compat 8bit DAC.pdf
 Analog-Digital Convertors\AD7579_80 10 bit ADC.pdf
 Capacitor\NEO_5F_6V.pdf
-ElectronicsReference.pdf
+Component Reference\ElectronicsReference.pdf
 Logic ICs\40181 4bit ALU.pdf
 Logic ICs\40181.pdf
 Logic ICs\40245.pdf
@@ -10,5 +10,44 @@ Logic ICs\CMOS 4000 series - Motorola.pdf
 Logic ICs\TTL -All.pdf
 Memory\NMC27C32BQ 4k EPROM.pdf
 Microcontrollers\2.13inch_e-Paper_Datasheet.pdf
+Microcontrollers\DSP_PIC33EV256GM102.pdf
+Microcontrollers\GY_271_Compass Magnetometer.pdf
+Microcontrollers\MT306 DCtoDV convertor.pdf
+Microcontrollers\PIC10F200_202_204_206.pdf
+Microcontrollers\PIC12F629.pdf
+Microcontrollers\PIC16F18446-Curiosity-Nano.pdf
+Microcontrollers\PIC16F5x.pdf
+Microcontrollers\PIC16F631_677_685_687_689_690.pdf
+Microcontrollers\PIC32MX1XX2XX 283644-PIN_Datasheet_DS60001168L.pdf
+Microcontrollers\Pico_Audio_Amplifier.pdf
 Microcontrollers\WaveShare 2.13inch e-Paper.pdf
+Misc 3pin Semi\MCR218-6G Thyristor.pdf
+Misc ICs\FT232 USB to Serial.pdf
+Misc ICs\LM107 111 308 565 Phase Locked Loop.pdf
+Misc ICs\MAX038 Function Generator.pdf
+Misc ICs\MAX220-MAX249 Line Drivers.pdf
+Misc ICs\MAX7219-MAX7221 Serial LED Drivers.pdf
+Misc ICs\MCS23S90 SPI IO Expander.pdf
+MPUS and PIAs\8085Overview.pdf
+MPUS and PIAs\MC6821 PIA.pdf
+MPUS and PIAs\w65c02s.pdf
+MPUS and PIAs\Z80UserManual.pdf
+Music\AS3320.pdf
+Music\AS3330.pdf
+Music\AS3340.pdf
+Music\AS3350.pdf
+Music\AS3372E.pdf
+Opto\5101AS.pdf
+Opto\5inch Touch Screen\ER-AS-RA8875_Datasheet.pdf
+Opto\5inch Touch Screen\ER-TP050-2_Drawing.pdf
+Opto\5inch Touch Screen\RA8875.pdf
+Opto\5inch Touch Screen\VS1838 IR Receiver.pdf
+Opto\HDSP-H101.pdf
+Relays and Couplers\RY-Fujitsu.pdf
+Transistors\2N3055 Power NPN.pdf
+Transistors\2N4401 General Purpose NPN.pdf
+Transistors\2N5551 General Purpose NPN.pdf
+Transistors\2N7000 Small Signal Mosfet n-channel.pdf
+Transistors\MJ2955 Power PNP.pdf
+Transistors\VN0104 General Purpose Mosfet n-channel.pdf
 Voltage Regulators\TL783 125 Adjustable VReg.pdf

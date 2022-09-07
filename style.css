@@ -5,6 +5,7 @@
 body{
     overflow:hidden;
     margin:0;
+    background-color: #323639;
 }
 
 #left{
@@ -13,12 +14,20 @@ body{
     height:100vh;
     display: flex;
     flex-direction: column;
+    background-color: #323639;
+    border-style: none;
+    box-shadow: 2px 2px 2px #00000080;
 }
 #list{
     overflow-y: auto;
     overflow-x: hidden;
     margin-top: 0;
+    padding-top: 10;
+    padding-right: 10;
     margin-bottom: 0;
+    margin-left: -20;
+    color: white;
+    font-family: sans-serif;
 }
 #pdfViewer{
     /*
@@ -31,18 +40,18 @@ body{
     margin-left: auto;
     margin-right: 0;
     margin-top: 0;
+    border-style: none;
 }
 .pdflink{
     /*text-decoration: underline;*/
-    color: blue;
-    font-family: sans-serif;
+    color: gainsboro;
 }
 .pdflink:hover {
     cursor:pointer;
     
     text-decoration: underline;
-    color: #0000D0;
-    background-color: aliceblue;
+    color: #8ab4f8;
+    /*background-color: aliceblue;*/
 }
 .pdflink .tooltip {
     visibility: hidden;
@@ -64,5 +73,11 @@ body{
     visibility: visible;
 }
 #searchbar{
-    min-height: 25px;
+    min-height: 55px;
+    background-color: #323639;
+    border-style: none;
+    box-shadow: 2px 2px 2px #00000080;
+    color: white;
+    font-size: large;
+    padding: 10 20 10 20;
 }

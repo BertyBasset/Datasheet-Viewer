@@ -1,4 +1,5 @@
 var index = [];
+var extras = [];
 
 var items = [];
 var subjects = {};
@@ -9,7 +10,8 @@ window.addEventListener('load', function () {
     fetch("./pdfData.json")
     .then((response) => response.json())
     .then((data) => {
-        index = index.concat(data);
+        //index = index.concat(data);
+        index = data;
         files++;
         if(files >= 2) {
             main();
@@ -19,7 +21,8 @@ window.addEventListener('load', function () {
     fetch("./extras.json")
     .then((response) => response.json())
     .then((data) => {
-        index = index.concat(data);
+        //index = index.concat(data);
+        extras = data;
         files++;
         if(files >= 2) {
             main();
@@ -29,14 +32,19 @@ window.addEventListener('load', function () {
 
 function main() {
     
+    //Remove duplicates
+    index = index.filter((file) => !extras.map((extra) => extra.Path).includes(file.Path));
+    index = index.concat(extras);
+
     let list = document.getElementById("list");
     
-    for(pdf of index.sort((a, b) => a.Title.localeCompare(b.Title))) {
+    for(pdf of index.sort((a, b) => a.Title.localeCompare(b.Title)).sort((a, b) => a.Subject.localeCompare(b.Subject))) {
         if(!(pdf.Subject in subjects)) {
             let container = document.createElement("li");
             let subject = document.createElement("ul");
             
             container.innerText = pdf.Subject;
+            container.style.listStyle = "none";
             container.appendChild(subject);
             subjects[pdf.Subject] = subject;
             list.appendChild(container);
@@ -48,24 +56,23 @@ function main() {
         item.className = "pdflink"
         item.innerText = pdf.Title;
         item.setAttribute("data-metadata", JSON.stringify(pdf))
+        item.style.listStyle = 'disc';
         item.onclick = function() {
             pdfViewer.src = JSON.parse(this.getAttribute('data-metadata')).Path;
         }
 
-        let tooltip = document.createElement('span');
-        tooltip.className = 'tooltip';
-        tooltip.innerText = `Title: ${pdf.Title}\nSubject: ${pdf.Subject}\nAuthor: ${pdf.Author}\nPages: ${pdf.Pages}\nKeywords: ${pdf.Keywords.map((k) => "\n\u00a0\u00a0\u00a0\u2022\u00a0\u00a0" + k)}.`;
-        //tooltip.onclick = function(e) {
-        //    e.target.style.visibility = 'hidden';
+        //let tooltip = document.createElement('span');
+        //tooltip.className = 'tooltip';
+        //tooltip.innerText = `Title: ${pdf.Title}\nSubject: ${pdf.Subject}\nAuthor: ${pdf.Author}\nPages: ${pdf.Pages}\nKeywords: ${pdf.Keywords.map((k) => "\n\u00a0\u00a0\u00a0\u2022\u00a0\u00a0" + k)}.`;
+        
+        //item.onmouseover = function(e) {
+        //let tp = this.firstElementChild;
+        //
+        //    tp.style.top = e.Y;
+        //    tp.style.left = e.X;
         //}
-        item.onmouseover = function(e) {
-            let tp = this.firstElementChild;
 
-            tp.style.top = e.Y;
-            tp.style.left = e.X;
-        }
-
-        item.appendChild(tooltip);
+        //item.appendChild(tooltip);
 
         root.appendChild(item);
         items.push(item);

@@ -1,12 +1,1021 @@
 [
     {
-        "Path": "Microcontrollers\\2.13inch_e-Paper_Datasheet.pdf",
-        "Title": "2.13\" E-Paper",
-        "Subject": "Display",
-        "Author": "",
-        "Pages": 0,
+        "Path": "Amplifiers\\MC3340 Attenuator.pdf",
+        "Title": "MC3340 Attenuator",
+        "Subject": "Amplifier",
+        "Author": "Motorola",
+        "Pages": 4,
         "Keywords": [
 
+        ]
+    },
+    {
+        "Path": "Logic ICs\\MC14500B_Handbook.pdf",
+        "Title": "MC14500 1-bit ",
+        "Subject": "MPUs and PIAs",
+        "Author": "Motorola Semiconductor Products Inc.",
+        "Pages": 112,
+        "Keywords": [
+            "4500",
+            "CMOS",
+            "ICU",
+            "Industrial Control Unit"
+        ]
+    },
+    {
+        "Path": "Misc 3pin Semi\\LM336 5V Ref.pdf",
+        "Title": "LMx36-5.0 5V Reference Diode",
+        "Subject": "Misc 3 pin devices",
+        "Author": "Texas Instruments/National Semiconductor",
+        "Pages": 14,
+        "Keywords": [
+            "LM136-5.0",
+            "LM236-5.0",
+            "LM336-5.0",
+            "TO92",
+            "TO46"
+        ]
+    },
+    {
+        "Path": "MPUS and PIAs\\8088.pdf",
+        "Title": "8088 8-bit Microprocessor",
+        "Subject": "MPUs and PIAs",
+        "Author": "Intel",
+        "Pages": 30,
+        "Keywords": [
+            "8088",
+            "8086",
+            "x86"
+        ]
+    },
+    {
+        "Path": "Music\\AY-3-8910.pdf",
+        "Title": "AY-3-891x Programmable Sound Generator",
+        "Subject": "Music",
+        "Author": "General Instrument",
+        "Pages": 8,
+        "Keywords": [
+            "PSG",
+            "AY-3-8910",
+            "AY-3-8912",
+            "AY-3-8913"
+        ]
+    },
+    {
+        "Path": "Amplifiers\\LT1079.pdf",
+        "Title": "LT107x Dual/Quad Precision Operation Amplifier",
+        "Subject": "Amplifier",
+        "Author": "Linear Technology",
+        "Pages": 20,
+        "Keywords": [
+            "LT1078",
+            "LT1079",
+            "Op Amp",
+            "Opamp",
+            "Single Supply",
+            "Micropower"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\SD Card.pdf",
+        "Title": "SPI SD Card Module",
+        "Subject": "Module",
+        "Author": "",
+        "Pages": 6,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Misc ICs\\NX3L4053 Analog Switch.pdf",
+        "Title": "NX4L4053 Triple SPDT Analog Switch",
+        "Subject": "ICs Misc",
+        "Author": "NXP Semiconductors",
+        "Pages": 22,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\PIC16C5x.pdf",
+        "Title": "PIC16C5x 8-bit CMOS Microcontroller",
+        "Subject": "Microcontroller",
+        "Author": "Microchip",
+        "Pages": 192,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Opto\\SSD1306.pdf",
+        "Title": "SSD1306 128x64 Dot Matrix Display Driver",
+        "Subject": "Opto",
+        "Author": "Solomon Systech",
+        "Pages": 65,
+        "Keywords": [
+            "6800",
+            "8080",
+            "SPI",
+            "I2C",
+            "Oled Display"
+        ]
+    },
+    {
+        "Path": "Amplifiers\\TDA2002 8W car audio amp.pdf",
+        "Title": "TDA2002 8W Car Radio Audio Amplifier",
+        "Subject": "Amplifier",
+        "Author": "ST Microelectronics",
+        "Pages": 2,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Misc ICs\\PCF8574 I2C IO Expander.pdf",
+        "Title": "PCF8574 I2C IO Expander",
+        "Subject": "ICs Misc",
+        "Author": "Texas Instruments",
+        "Pages": 42,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\TXS108E Bidirectional Level Shifter.pdf",
+        "Title": "TXS108E Bidirectional Level Shifter",
+        "Subject": "ICs Misc",
+        "Author": "Texas Instruments",
+        "Pages": 35,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Opto\\VS1838 IR Receiver.pdf",
+        "Title": "VS1838 IR Receiver",
+        "Subject": "Opto",
+        "Author": "",
+        "Pages": 3,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Misc ICs\\LM1872 RC Receiver.pdf",
+        "Title": "LM1872 RC Receiver",
+        "Subject": "ICs Misc",
+        "Author": "National Semiconductor",
+        "Pages": 20,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Amplifiers\\MC1741 high perf single Op Amp.pdf",
+        "Title": "MC1741 Operational Amplifier",
+        "Subject": "Amplifiers",
+        "Author": "Motorola",
+        "Pages": 8,
+        "Keywords": [
+            "Op Amp",
+            "Opamp"
+        ]
+    },
+    {
+        "Path": "Amplifiers\\LF351N single channel FJET Op Amp.pdf",
+        "Title": "LF351N Single Operational Amplifier",
+        "Subject": "Amplifiers",
+        "Author": "Fairchild Semiconductor",
+        "Pages": 8,
+        "Keywords": [
+            "Op Amp",
+            "Opamp"
+        ]
+    },
+    {
+        "Path": "Opto\\MAN74A.pdf",
+        "Title": "MAN3x00A, Man70A Seven Segment Display",
+        "Subject": "Opto",
+        "Author": "Fairchild Semiconductor",
+        "Pages": 9,
+        "Keywords": [
+            "7segment",
+            "7 segment",
+            "numeric",
+            "alphanumeric",
+            "led"
+        ]
+    },
+    {
+        "Path": "Misc ICs\\CA3081 7 high current NPN Array.pdf",
+        "Title": "CA3081, CA3082 NPN Transistor Array",
+        "Subject": "ICs Misc",
+        "Author": "Intersil",
+        "Pages": 6,
+        "Keywords": [
+            "General Purpose",
+            "High Current"
+        ]
+    },
+    {
+        "Path": "MPUS and PIAs\\MC68008.pdf",
+        "Title": "MC68008 8/16/32-bit Microprocessor",
+        "Subject": "MPUs and PIAs",
+        "Author": "Motorola",
+        "Pages": 36,
+        "Keywords": [
+            "68000"
+        ]
+    },
+    {
+        "Path": "Misc ICs\\DS1489 Quad Line Receiver.pdf",
+        "Title": "DS1489 Quad Line Receiver",
+        "Subject": "ICs Misc",
+        "Author": "National Semiconductor",
+        "Pages": 7,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Amplifiers\\LM381.pdf",
+        "Title": "LM381 Dual Preamplifier",
+        "Subject": "Amplifier",
+        "Author": "National Semiconductor",
+        "Pages": 6,
+        "Keywords": [
+            "Op Amp",
+            "Opamp"
+        ]
+    },
+    {
+        "Path": "Amplifiers\\LM389 LV Audio Power Amp.pdf",
+        "Title": "LM389 Audio Power Amplifier with NPN Transistor Array",
+        "Subject": "Amplifiers",
+        "Author": "National Semiconductor",
+        "Pages": 8,
+        "Keywords": [
+            "Op Amp",
+            "Opamp"
+        ]
+    },
+    {
+        "Path": "Memory\\X2816 2k EEPROM.pdf",
+        "Title": "X2816 2048x8bit EEPROM",
+        "Subject": "Memory",
+        "Author": "Xicor",
+        "Pages": 16,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Misc 3pin Semi\\Z0103 Triac.pdf",
+        "Title": "ZO10x0 Triac",
+        "Subject": "Misc 3 pin devices",
+        "Author": "Philips",
+        "Pages": 12,
+        "Keywords": [
+            "Z0103",
+            "Z0107",
+            "Z0109"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\CP2102UsbToUartBridge.pdf",
+        "Title": "CP2102 USB to UART Bridge",
+        "Subject": "ICs Misc",
+        "Author": "Silicon Laboratories",
+        "Pages": 16,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Current Sense Amplifiers\\MAX4376-MAX4378.pdf",
+        "Title": "MAX437x Current Sense Amplifier",
+        "Subject": "ICs Misc",
+        "Author": "Maxim Integrated",
+        "Pages": 13,
+        "Keywords": [
+            "MAX4376",
+            "MAX4377",
+            "MAX4378"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\2.13inch_e-Paper_Datasheet.pdf",
+        "Title": "2.13\" E-Paper",
+        "Subject": "Opto",
+        "Author": "Waveshare",
+        "Pages": 28,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\Raspberry Pi\\rp2040_datasheet.pdf",
+        "Title": "RP2040",
+        "Subject": "Microcontroller",
+        "Author": "Raspberry Pi",
+        "Pages": 636,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Amplifiers\\UA759U1C single Power Op Amp.pdf",
+        "Title": "μA759, μA77000 Power Operational Amplifier",
+        "Subject": "Amplifiers",
+        "Author": "Fairchild Semiconductor",
+        "Pages": 12,
+        "Keywords": [
+            "UA759",
+            "UA77000",
+            "Opamp",
+            "Op Amp"
+        ]
+    },
+    {
+        "Path": "Analog-Digital Convertors\\AD558 uP compat 8bit DAC.pdf",
+        "Title": "AD558 8-bit Digital to Analog Converter",
+        "Subject": "AD/DA Converters",
+        "Author": "Analog Devices",
+        "Pages": 9,
+        "Keywords": [
+            "D2A",
+            "DAC",
+            "D/A",
+            "DtA"
+        ]
+    },
+    {
+        "Path": "Analog-Digital Convertors\\AD7579_80 10 bit ADC.pdf",
+        "Title": "AD75xx 10-bit Analog to Digital Converter",
+        "Subject": "AD/DA Converters",
+        "Author": "Analog Devices",
+        "Pages": 16,
+        "Keywords": [
+            "A2D",
+            "ADC",
+            "A/D",
+            "AtD"
+        ]
+    },
+    {
+        "Path": "Capacitor\\NEO_5F_6V.pdf",
+        "Title": "6F Supercapacitor",
+        "Subject": "Capacitor",
+        "Author": "Vina Tech",
+        "Pages": 1,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Component Reference\\ElectronicsReference.pdf",
+        "Title": "Electronics Reference",
+        "Subject": "Reference",
+        "Author": "Osian Dhammaloka Griffiths",
+        "Pages": 43,
+        "Keywords": [
+            "Circuits",
+            "Configurations"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\40181 4bit ALU.pdf",
+        "Title": "CD40181BMS 4-Bit Arithmetic Logic Unit",
+        "Subject": "Logic",
+        "Author": "Intersil",
+        "Pages": 10,
+        "Keywords": [
+            "CMOS",
+            "ALU"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\40245.pdf",
+        "Title": "HEF40245B Octal Bus Transceiver with 3-State Outputs",
+        "Subject": "Logic",
+        "Author": "Philips",
+        "Pages": 6,
+        "Keywords": [
+            "CMOS",
+            "Three State"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\CMOS 4000 series - Motorola.pdf",
+        "Title": "CMOS MC14000 Series Reference",
+        "Subject": "Logic",
+        "Author": "Motorola",
+        "Pages": 525,
+        "Keywords": [
+            "CMOS",
+            "40",
+            "44",
+            "45"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\TTL -All.pdf",
+        "Title": "TTL Series Reference",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 771,
+        "Keywords": [
+            "TTL",
+            "74",
+            "75"
+        ]
+    },
+    {
+        "Path": "Memory\\NMC27C32BQ 4k EPROM.pdf",
+        "Title": "NMC27C32B 4096x8bit EPROM",
+        "Subject": "Memory",
+        "Author": "National Semiconductor",
+        "Pages": 10,
+        "Keywords": [
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\DSP_PIC33EV256GM102.pdf",
+        "Title": "dsPIC33EVxxxGM00x/10x Digital Signal Processor",
+        "Subject": "Digital Signal Processor",
+        "Author": "Microchip",
+        "Pages": 444,
+        "Keywords": [
+            "DSP",
+            "dsPIC33EV64GM002",
+            "dsPIC33EV64GM102",
+            "dsPIC33EV128GM002",
+            "dsPIC33EV128GM102",
+            "dsPIC33EV256GM002",
+            "dsPIC33EV256GM102",
+            "dsPIC33EV64GM004",
+            "dsPIC33EV64GM104",
+            "dsPIC33EV128GM004",
+            "dsPIC33EV128GM104",
+            "dsPIC33EV256GM004",
+            "dsPIC33EV256GM104",
+            "dsPIC33EV64GM006",
+            "dsPIC33EV64GM106",
+            "dsPIC33EV128GM006",
+            "dsPIC33EV128GM106",
+            "dsPIC33EV256GM006",
+            "dsPIC33EV256GM106"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\GY_271_Compass Magnetometer.pdf",
+        "Title": "GY-271 Electronic Compass",
+        "Subject": "Module",
+        "Author": "",
+        "Pages": 7,
+        "Keywords": [
+            
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\MT306 DCtoDV convertor.pdf",
+        "Title": "MT3608 Step Up Converter",
+        "Subject": "ICs Misc",
+        "Author": "Aerosemi",
+        "Pages": 7,
+        "Keywords": [
+            "Step-up converter",
+            "Boost converter",
+            "Boost-converter",
+            "Buck converter",
+            "Buck-converter"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\PIC10F200_202_204_206.pdf",
+        "Title": "PIC10F20x 8-bit Microcontroller",
+        "Subject": "Microcontroller",
+        "Author": "Microchip",
+        "Pages": 88,
+        "Keywords": [
+            "PIC10F200",
+            "PIC10F202",
+            "PIC10F204",
+            "PIC10F206"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\PIC12F629.pdf",
+        "Title": "PIC12F6xx 8-bit Microcontroller",
+        "Subject": "Microcontroller",
+        "Author": "Microchip",
+        "Pages": 136,
+        "Keywords": [
+            "PIC12F629",
+            "PIC12F675"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\PIC18446-Curiosity-Nano.pdf",
+        "Title": "PIC16F18446 Curiosity Nano Evaluation Kit",
+        "Subject": "Microcontroller",
+        "Author": "Microchip",
+        "Pages": 37,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\PIC16F5x.pdf",
+        "Title": "PIC16F5x 8-bit Microcontroller",
+        "Subject": "Microcontroller",
+        "Author": "Microchip",
+        "Pages": 88,
+        "Keywords": [
+            "PIC16F54",
+            "PIC16F57",
+            "PIC16F59"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\PIC16F631_677_685_687_689_690.pdf",
+        "Title": "PIC16F6xx 8-bit Microcontroller",
+        "Subject": "Microcontroller",
+        "Author": "Microchip",
+        "Pages": 298,
+        "Keywords": [
+            "PIC16F631",
+            "PIC16F677",
+            "PIC16F685",
+            "PIC16F687",
+            "PIC16F689",
+            "PIC16F690"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\PIC32MX1XX2XX 283644-PIN_Datasheet_DS60001168L.pdf",
+        "Title": "PIC32MX1xx/2xx 32-bit Microcontroller",
+        "Subject": "Microcontroller",
+        "Author": "Microchip",
+        "Pages": 350,
+        "Keywords": [
+            "PIC32MX110F016B",
+            "PIC32MX110F016C",
+            "PIC32MX110F016D",
+            "PIC32MX120F032B",
+            "PIC32MX120F032C",
+            "PIC32MX120F032D",
+            "PIC32MX130F064B",
+            "PIC32MX130F064C",
+            "PIC32MX130F064D",
+            "PIC32MX150F128B",
+            "PIC32MX150F128C",
+            "PIC32MX150F128D",
+            "PIC32MX130F128B",
+            "PIC32MX130F128D",
+            "PIC32MX170F256B",
+            "PIC32MX170F256D",
+            "PIC32MX210F016B",
+            "PIC32MX210F016C",
+            "PIC32MX210F016D",
+            "PIC32MX220F032B",
+            "PIC32MX220F032C",
+            "PIC32MX220F032D",
+            "PIC32MX230F064B",
+            "PIC32MX230F064C",
+            "PIC32MX230F064D",
+            "PIC32MX230F064B",
+            "PIC32MX230F064C",
+            "PIC32MX230F064D",
+            "PIC32MX250F128B",
+            "PIC32MX250F128C",
+            "PIC32MX250F128D",
+            "PIC32MX230F256B",
+            "PIC32MX230F256D",
+            "PIC32MX270F256B",
+            "PIC32MX270F256D"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\Pico_Audio_Amplifier.pdf",
+        "Title": "PAM8901, PAM8908 Stereo Headphone Driver",
+        "Subject": "ICs Misc",
+        "Author": "Diodes Incorporated",
+        "Pages": 13,
+        "Keywords": [
+            "Module",
+            "Pico Audio Amplifier"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\Waveshare 2.13inch e-Paper.pdf",
+        "Title": "2.13\" E-Paper",
+        "Subject": "Opto",
+        "Author": "Waveshare",
+        "Pages": 22,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Misc 3pin Semi\\MCR218-6G Thyristor.pdf",
+        "Title": "MCR218-xG Thyristor",
+        "Subject": "Misc 3 pin devices",
+        "Author": "ON Semiconductor",
+        "Pages": 4,
+        "Keywords": [
+            "MCR218-2G",
+            "MCR218-4G",
+            "MCR218-6G"
+        ]
+    },
+    {
+        "Path": "Misc ICs\\F232 USB to Serial.pdf",
+        "Title": "FT232R USB to UART Converter",
+        "Subject": "ICs Misc",
+        "Author": "Future Technology Devices International Ltd.",
+        "Pages": 40,
+        "Keywords": [
+            "USB2Serial",
+            "USB2UART",
+            "USB to Serial",
+            "RS232"
+        ]
+    },
+    {
+        "Path": "Misc ICs\\LM107 111 308 565 Phase Locked Loop.pdf",
+        "Title": "LMxxx Phase Locked Loop",
+        "Subject": "ICs Misc",
+        "Author": "Texas Instruments",
+        "Pages": 16,
+        "Keywords": [
+            "PLL",
+            "LM107",
+            "LM111",
+            "LM308",
+            "LM565"
+        ]
+    },
+    {
+        "Path": "Misc ICs\\MAX038 Function Generator.pdf",
+        "Title": "MAX038 High Frequency Waveform Generator",
+        "Subject": "ICs Misc",
+        "Author": "Maxim Integrated",
+        "Pages": 17,
+        "Keywords": [
+            "Function Generator"
+        ]
+    },
+    {
+        "Path": "Misc ICs\\MAX220-MAX249 Line Drivers.pdf",
+        "Title": "MAX220, MAX249 Multichannel RS-232 Driver/Receiver",
+        "Subject": "ICs Misc",
+        "Author": "Maxim Integrated",
+        "Pages": 39,
+        "Keywords": [
+            "RS232",
+            "UART",
+            "Serial"
+        ]
+    },
+    {
+        "Path": "Misc ICs\\MAX7219-MAX7221 Serial LED Drivers.pdf",
+        "Title": "MAX7219, MAX7221 Serial LED Display Drivers",
+        "Subject": "ICs Misc",
+        "Author": "Maxim Integrated",
+        "Pages": 17,
+        "Keywords": [
+            
+        ]
+    },
+    {
+        "Path": "Misc ICs\\MCS23S90 SPI IO Expander.pdf",
+        "Title": "MCP23x09 8-bit SPI IO Expander",
+        "Subject": "ICs Misc",
+        "Author": "Microchip",
+        "Pages": 52,
+        "Keywords": [
+            "MCP23009",
+            "MCP23S09"
+        ]
+    },
+    {
+        "Path": "MPUS and PIAs\\8085Overview.pdf",
+        "Title": "8085 8-bit Microprocessor",
+        "Subject": "MPUs and PIAs",
+        "Author": "Intel",
+        "Pages": 58,
+        "Keywords": [
+            "8080"
+        ]
+    },
+    {
+        "Path": "MPUS and PIAs\\MC6821 PIA.pdf",
+        "Title": "MC6821 Peripheral Interface Adapter",
+        "Subject": "MPUs and PIAs",
+        "Author": "Motorola Semiconductor Products Inc.",
+        "Pages": 12,
+        "Keywords": [
+            "PIA",
+            "MC6800"
+        ]
+    },
+    {
+        "Path": "MPUS and PIAs\\w65c02.pdf",
+        "Title": "W65C02 8-bit Microprocessor",
+        "Subject": "MPUs and PIAs",
+        "Author": "Western Design Centre",
+        "Pages": 32,
+        "Keywords": [
+            "6502"
+        ]
+    },
+    {
+        "Path": "MPUS and PIAs\\Z80UserManual.pdf",
+        "Title": "Z80 8-bit Microcontroller",
+        "Subject": "MPUs and PIAs",
+        "Author": "Zilog",
+        "Pages": 332,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Music\\AS3310.pdf",
+        "Title": "AS3310 Voltage Controlled Envelope Generator",
+        "Subject": "Music",
+        "Author": "ALFA RPAR",
+        "Pages": 3,
+        "Keywords": [
+            "Synth",
+            "Env Gen",
+            "Envgen",
+            "ADSR"
+        ]
+    },
+    {
+        "Path": "Music\\AS3320.pdf",
+        "Title": "AS3320 Voltage Controlled Filter",
+        "Subject": "Music",
+        "Author": "ALFA RPAR",
+        "Pages": 3,
+        "Keywords": [
+            "Synth",
+            "VCF"
+        ]
+    },
+    {
+        "Path": "Music\\AS3330.pdf",
+        "Title": "AS3330 Dual Voltage Controlled Amplifier",
+        "Subject": "Music",
+        "Author": "ALFA RPAR",
+        "Pages": 3,
+        "Keywords": [
+            "Synth",
+            "VCA"
+        ]
+    },
+    {
+        "Path": "Music\\AS3340.pdf",
+        "Title": "AS334x Voltage Controlled Oscillator",
+        "Subject": "Music",
+        "Author": "ALFA RPAR",
+        "Pages": 7,
+        "Keywords": [
+            "Synth",
+            "VCO",
+            "AS3340",
+            "AS3345",
+            "AS3340A",
+            "AS3345A"
+        ]
+    },
+    {
+        "Path": "Music\\AS3350.pdf",
+        "Title": "AS3350 Dual Voltage Controlled State Variable Filter",
+        "Subject": "Music",
+        "Author": "ALFA RPAR",
+        "Pages": 3,
+        "Keywords": [
+            "Synth",
+            "VCF"
+        ]
+    },
+    {
+        "Path": "Music\\CEM3310.pdf",
+        "Title": "CEM3310 Voltage Controlled Envelope Generator",
+        "Subject": "Music",
+        "Author": "ALFA RPAR",
+        "Pages": 3,
+        "Keywords": [
+            "Synth",
+            "Env Gen",
+            "Envgen",
+            "ADSR"
+        ]
+    },
+    {
+        "Path": "Music\\CEM3320.pdf",
+        "Title": "CEM3320 Voltage Controlled Filter",
+        "Subject": "Music",
+        "Author": "ALFA RPAR",
+        "Pages": 3,
+        "Keywords": [
+            "Synth",
+            "VCF"
+        ]
+    },
+    {
+        "Path": "Music\\CEM3330.pdf",
+        "Title": "CEM3330 Dual Voltage Controlled Amplifier",
+        "Subject": "Music",
+        "Author": "ALFA RPAR",
+        "Pages": 3,
+        "Keywords": [
+            "Synth",
+            "VCA"
+        ]
+    },
+    {
+        "Path": "Music\\CEM3340.pdf",
+        "Title": "CEM334x Voltage Controlled Oscillator",
+        "Subject": "Music",
+        "Author": "ALFA RPAR",
+        "Pages": 7,
+        "Keywords": [
+            "Synth",
+            "VCO",
+            "CEM3340",
+            "CEM3345"
+        ]
+    },
+    {
+        "Path": "Music\\CEM3350.pdf",
+        "Title": "CEM3350 Dual Voltage Controlled State Variable Filter",
+        "Subject": "Music",
+        "Author": "ALFA RPAR",
+        "Pages": 3,
+        "Keywords": [
+            "Synth",
+            "VCF"
+        ]
+    },
+    {
+        "Path": "Music\\AS3372E.pdf",
+        "Title": "AS3372 Controllable Signal Processor",
+        "Subject": "Music",
+        "Author": "ALFA RPAR",
+        "Pages": 6,
+        "Keywords": [
+            "Synth"
+        ]
+    },
+    {
+        "Path": "Opto\\5101AS.pdf",
+        "Title": "TOP-CC-5101AS Seven Segment Display",
+        "Subject": "Opto",
+        "Author": "Toplite",
+        "Pages": 7,
+        "Keywords": [
+            "7 segment",
+            "7segment",
+            "led"
+        ]
+    },
+    {
+        "Path": "Opto\\5inch Touch Screen\\ER-AS-RA8875_Datasheet.pdf",
+        "Title": "ER-AS-RA8875 Arduino Shield",
+        "Subject": "Opto",
+        "Author": "East Rising",
+        "Pages": 12,
+        "Keywords": [
+            "LCD",
+            "Touch Screen"
+        ]
+    },
+    {
+        "Path": "Opto\\5inch Touch Screen.pdf",
+        "Title": "ER-TP050-2 Touch Screen Schematic",
+        "Subject": "Opto",
+        "Author": "East Rising",
+        "Pages": 1,
+        "Keywords": [
+            "LCD"
+        ]
+    },
+    {
+        "Path": "Opto\\5inch Touch Screen\\RA8875.pdf",
+        "Title": "RA8875 Character/Graphic TFT LCD Controller",
+        "Subject": "Opto",
+        "Author": "Raio",
+        "Pages": 180,
+        "Keywords": [
+            "Touch Screen"
+        ]
+    },
+    {
+        "Path": "Opto\\5inch Touch Screen\\VS1838 IR Receiver.pdf",
+        "Title": "ER-TFTM050-2 TFT LCD Module",
+        "Subject": "Opto",
+        "Author": "East Rising",
+        "Pages": 27,
+        "Keywords": [
+            "Touch Screen"
+        ]
+    },
+    {
+        "Path": "Opto\\HDSP-H101.pdf",
+        "Title": "HDSP Series Seven Segment Display",
+        "Subject": "Opto",
+        "Author": "Avago Technologies",
+        "Pages": 18,
+        "Keywords": [
+            "led",
+            "7 segment",
+            "7segment"
+        ]
+    },
+    {
+        "Path": "Relays and Couplers\\RY-Fujitsu.pdf",
+        "Title": "RY Series Miniature Relay",
+        "Subject": "Relays and Couplers",
+        "Author": "Fujitsu",
+        "Pages": 10,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Transistors\\2n3055 Power NPN.pdf",
+        "Title": "2N3055 NPN Power Transistor",
+        "Subject": "Transistor",
+        "Author": "Multicomp Pro",
+        "Pages": 4,
+        "Keywords": [
+            "TO3"
+        ]
+    },
+    {
+        "Path": "Transistors\\2N4401 General Purpose NPN.pdf",
+        "Title": "2N4401, MMBT4401 General Purpose NPN Amplifier Transistor",
+        "Subject": "Transistor",
+        "Author": "ON Semiconductor",
+        "Pages": 9,
+        "Keywords": [
+            "TO92",
+            "SOT23"
+        ]
+    },
+    {
+        "Path": "Transistors\\2N5551.pdf",
+        "Title": "2N5551, MMBT5551 General Purpose NPN Amplifier Transistor",
+        "Subject": "Transistor",
+        "Author": "Fairchild Semiconductor",
+        "Pages": 11,
+        "Keywords": [
+
+        ]
+    },
+    {
+        "Path": "Transistors\\2N7000 Small Signal Mosfet n-channel.pdf",
+        "Title": "2N7000 Small Signal N-Channel MOSFET",
+        "Subject": "Transistor",
+        "Author": "ON Semiconductor",
+        "Pages": 4,
+        "Keywords": [
+            "TO92"
+        ]
+    },
+    {
+        "Path": "Transistors\\MJ2955 Power PNP.pdf",
+        "Title": "MJ2955 Power PNP Transistor",
+        "Subject": "Transistor",
+        "Author": "Multicomp Pro",
+        "Pages": 4,
+        "Keywords": [
+            "TO3"
+        ]
+    },
+    {
+        "Path": "Transistors\\VN0104 General Purpose Mosfet n-channel.pdf",
+        "Title": "VN0104 General Purpose N-Channel Enhancement MOSFET",
+        "Subject": "Transistor",
+        "Author": "Supertex Inc.",
+        "Pages": 6,
+        "Keywords": [
+            "TO92"
+        ]
+    },
+    {
+        "Path": "Voltage Regulators\\TL783 125 Adjustable VReg.pdf",
+        "Title": "TL783 Adjustable Voltage Regulator",
+        "Subject": "Voltage Regulator",
+        "Author": "Texas Instruments",
+        "Pages": 25,
+        "Keywords": [
+            "High Voltage",
+            "HV"
         ]
     }
 ]
