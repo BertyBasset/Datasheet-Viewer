@@ -806,7 +806,7 @@
         "Path": "Music\\CEM3310.pdf",
         "Title": "CEM3310 Voltage Controlled Envelope Generator",
         "Subject": "Music",
-        "Author": "ALFA RPAR",
+        "Author": "Curtis Electromusic Specialties",
         "Pages": 3,
         "Keywords": [
             "Synth",
@@ -819,7 +819,7 @@
         "Path": "Music\\CEM3320.pdf",
         "Title": "CEM3320 Voltage Controlled Filter",
         "Subject": "Music",
-        "Author": "ALFA RPAR",
+        "Author": "Curtis Electromusic Specialties",
         "Pages": 3,
         "Keywords": [
             "Synth",
@@ -830,7 +830,7 @@
         "Path": "Music\\CEM3330.pdf",
         "Title": "CEM3330 Dual Voltage Controlled Amplifier",
         "Subject": "Music",
-        "Author": "ALFA RPAR",
+        "Author": "Curtis Electromusic Specialties",
         "Pages": 3,
         "Keywords": [
             "Synth",
@@ -841,7 +841,7 @@
         "Path": "Music\\CEM3340.pdf",
         "Title": "CEM334x Voltage Controlled Oscillator",
         "Subject": "Music",
-        "Author": "ALFA RPAR",
+        "Author": "Curtis Electromusic Specialties",
         "Pages": 7,
         "Keywords": [
             "Synth",
@@ -854,7 +854,7 @@
         "Path": "Music\\CEM3350.pdf",
         "Title": "CEM3350 Dual Voltage Controlled State Variable Filter",
         "Subject": "Music",
-        "Author": "ALFA RPAR",
+        "Author": "Curtis Electromusic Specialties",
         "Pages": 3,
         "Keywords": [
             "Synth",
@@ -865,7 +865,7 @@
         "Path": "Music\\AS3372E.pdf",
         "Title": "AS3372 Controllable Signal Processor",
         "Subject": "Music",
-        "Author": "ALFA RPAR",
+        "Author": "Curtis Electromusic Specialties",
         "Pages": 6,
         "Keywords": [
             "Synth"
@@ -1017,5 +1017,322 @@
             "High Voltage",
             "HV"
         ]
-    }
+    },
+
+
+
+
+
+
+    {
+        "Path": "Logic ICs\\4019.pdf",
+        "Title": "4019 Quad And/Or Select Gate",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 21,
+        "Keywords": [
+            "4019",
+            "CMOS",
+            "Gate"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4026_4033.pdf",
+        "Title": "4026, 4024 Decade Counter/Divider",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 20,
+        "Keywords": [
+            "4026",
+            "4033",
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4031.pdf",
+        "Title": "4031 64-stage Static Shift Register",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 15,
+        "Keywords": [
+            "4031",
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4037.pdf",
+        "Title": "4037 Triple And/Or Bi-Phase Pairs",
+        "Subject": "Logic",
+        "Author": "T",
+        "Pages": 2,
+        "Keywords": [
+            "4037",
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4041.pdf",
+        "Title": "4041 Quad True/Complement Buffer",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 17,
+        "Keywords": [
+            "4041",
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4045.pdf",
+        "Title": "4045 21-stage Counter",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 8,
+        "Keywords": [
+            "4045",
+            "CMOS"
+        ]
+    },
+                
+    {
+        "Path": "Logic ICs\\4048.pdf",
+        "Title": "4048 Multifunction expandable 8-input Gate",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 18,
+        "Keywords": [
+            "4048",
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4054_4056_4057.pdf",
+        "Title": "4054, 4056, 4057 Liquid-crystal Display Driver",
+        "Subject": "Logic",
+        "Author": "",
+        "Pages": 18,
+        "Keywords": [
+            "4054",
+            "4056",
+            "4057",
+            "CMOS",
+            "7 segment",
+            "BCD"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4062.pdf",
+        "Title": "4062 200-stage Dynamic Shift Register",
+        "Subject": "Logic",
+        "Author": "",
+        "Pages": 4,
+        "Keywords": [
+            "4062",
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4063.pdf",
+        "Title": "4063 4-bit Magnitude Comparator",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 18,
+        "Keywords": [
+            "4063",
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4085.pdf",
+        "Title": "4085 Dual 2-wide 2-input And-Or-Invert GAte",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 18,
+        "Keywords": [
+            "4085",
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4086.pdf",
+        "Title": "4086 Expandable 4-wide 2-input And-Or-Invert Gate",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 16,
+        "Keywords": [
+            "4086",
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4095_4096.pdf",
+        "Title": "4095, 4096 Gated J-K Master-slave Flip-flops",
+        "Subject": "Logic",
+        "Author": "",
+        "Pages": 4,
+        "Keywords": [
+            "4095",
+            "4096",
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\4098.pdf",
+        "Title": "4098 Dual Monostable Multivibrator",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 18,
+        "Keywords": [
+            "4098",
+            "CMOS"
+        ]
+    },                    
+    {
+        "Path": "Logic ICs\\40100.pdf",
+        "Title": "40100 32-stage Static Left/Right Shift Register",
+        "Subject": "Logic",
+        "Author": "",
+        "Pages": 5,
+        "Keywords": [
+            "40100",
+            "CMOS"
+        ]
+    },                    
+    {
+        "Path": "Logic ICs\\40102_40103.pdf",
+        "Title": "40102, 40103 8-stage Presettable Synchronous Down Counter",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 14,
+        "Keywords": [
+            "40102",
+            "40103",
+            "CMOS"
+        ]
+    },                    
+    {
+        "Path": "Logic ICs\\40105.pdf",
+        "Title": "40105 FIFO Register",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 11,
+        "Keywords": [
+            "40105",
+            "CMOS"
+        ]
+    },                    
+    {
+        "Path": "Logic ICs\\40108.pdf",
+        "Title": "40108 4x4 Multiport Register",
+        "Subject": "Logic",
+        "Author": "",
+        "Pages": 5,
+        "Keywords": [
+            "40108",
+            "CMOS"
+        ]
+    },                    
+    {
+        "Path": "Logic ICs\\40117.pdf",
+        "Title": "40117 Programmable Dual 4-bit Terminator",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 5,
+        "Keywords": [
+            "40117",
+            "CMOS"
+        ]
+    },                    
+    {
+        "Path": "Logic ICs\\40147.pdf",
+        "Title": "40147 10-line to 4-line BCD Priority Encoder",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 10,
+        "Keywords": [
+            "40147",
+            "CMOS"
+        ]
+    },                    
+    {
+        "Path": "Logic ICs\\40160_40161_40162_40163.pdf",
+        "Title": "40160, 40161, 40162, 40163 Synchronous Programmable 4-bit Counter",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 22,
+        "Keywords": [
+            "40160",
+            "40161",
+            "40162",
+            "40163",
+            "CMOS"
+        ]
+    },                    
+    {
+        "Path": "Logic ICs\\40174.pdf",
+        "Title": "40174 Hex 'D'-type Flip-flop",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 21,
+        "Keywords": [
+            "40174",
+            "CMOS"
+        ]
+    },                    
+    {
+        "Path": "Logic ICs\\40175.pdf",
+        "Title": "40175 Quad 'D'-type Flip-flop",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 23,
+        "Keywords": [
+            "40175",
+            "CMOS"
+        ]
+    },                    
+                
+    {
+        "Path": "Logic ICs\\40182.pdf",
+        "Title": "41082 Look-ahead Carry Generator",
+        "Subject": "Logic",
+        "Author": "Intersil",
+        "Pages": 9,
+        "Keywords": [
+            "40182",
+            "CMOS"
+        ]
+    },   
+    {
+        "Path": "Logic ICs\\40192_40193.pdf",
+        "Title": "40192, 40193 Presettable Up?Dpwn Counter",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 20,
+        "Keywords": [
+            "40192",
+            "40193",
+            "CMOS"
+        ]
+    },   
+    {
+        "Path": "Logic ICs\\40208.pdf",
+        "Title": "40208 4x4 Multiport Register",
+        "Subject": "Logic",
+        "Author": "",
+        "Pages": 5,
+        "Keywords": [
+            "40208",
+            "CMOS"
+        ]
+    },
+    {
+        "Path": "Logic ICs\\40257.pdf",
+        "Title": "40257 Quad 2-line-to-1-line Data Selector/Multiplexer",
+        "Subject": "Logic",
+        "Author": "Texas Instruments",
+        "Pages": 11,
+        "Keywords": [
+            "40257",
+            "CMOS"
+        ]
+    }    
 ]
