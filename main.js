@@ -29,12 +29,10 @@ window.addEventListener('load', function () {
         }
     })
 })
-
 function main() {
     
-    //Remove duplicates
-    index = index.filter((file) => !extras.map((extra) => extra.Path).includes(file.Path));
-    index = index.concat(extras);
+    //Merge main index with extras, whilst removing duplicates
+    index = index.filter((file) => !extras.map((extra) => extra.Path).includes(file.Path)).concat(extras);
 
     let list = document.getElementById("list");
     
@@ -78,7 +76,7 @@ function main() {
         items.push(item);
     }
 
-    let searchbar = document.getElementById("searchbar");
+    var searchbar = document.getElementById("searchbar");
     searchbar.oninput = function(e) {
         let term = e.target.value.toLowerCase();
 
@@ -108,7 +106,106 @@ function main() {
             else {
                 container.style.display = 'none';
             }
-            
         }
+    }
+
+    let splitter = document.getElementById("splitter");
+    dragElement(splitter);
+
+    matchStyle();
+
+    window.addEventListener("keydown",function (e) {
+        if (e.key === "F3" || (e.ctrlKey && e.key == "f")) { 
+            e.preventDefault();
+            searchbar.focus();
+        }
+    })
+    searchbar.focus();
+}
+function matchStyle() {
+    // Firefox 1.0+
+    let isFirefox = typeof InstallTrigger !== 'undefined';
+
+    // Internet Explorer 6-11
+    let isIE = /*@cc_on!@*/false || !!document.documentMode;
+
+    // Edge 20+
+    let isEdge = !isIE && !!window.StyleMedia;
+
+    // Chrome 1 - 79
+    let isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+
+    // Edge (based on chromium) detection
+    let isEdgeChromium = isChrome && (navigator.userAgent.indexOf("Edg") != -1);
+
+    if(isEdge || isEdgeChromium) {
+        let style = `
+        body {
+            background-color: #E6E6E6;
+        }
+        #searchbar{
+            min-height: 41px;
+            max-height: 41px;
+            background-color: #F7F7F7;
+            border-style: solid;
+            border-color: #BEBEBE;
+            border-width: 1px;
+            border-top: 0;
+            border-left: 0px;
+            box-shadow: none;
+            color: black;
+        }
+        #left{
+            box-shadow: none;
+            background-color: #E6E6E6;
+        }
+        #list {
+            border-style: solid;
+            border-color: #BEBEBE;
+            border-width: 1px;
+            border-left: 0;
+            border-top: 0;
+            border-bottom: 0;
+            color: black;
+            box-shadow: none;
+        }
+        .pdflink{
+            color: #767676;
+        }
+        .pdflink:hover {
+            cursor:pointer;
+            color: #767676;
+            background-color: #EAEAEA;
+        }
+        `
+        let styleSheet = document.createElement("style");
+        styleSheet.innerText = style;
+        document.head.appendChild(styleSheet);
+    }
+}
+function dragElement(element)
+{
+    const first  = document.getElementById("left");
+    const second = document.getElementById("pdfViewer");
+
+    element.onmousedown = onMouseDown;
+
+    function onMouseDown(e)
+    {
+        document.onmousemove = onMouseMove;
+        document.onmouseup = () => {
+            document.getElementById("masker").style.zIndex = -10;
+            document.onmousemove = document.onmouseup = null;
+        }
+        document.getElementById("masker").style.zIndex = 10;
+    }
+
+    function onMouseMove(e)
+    {
+        let x = e.clientX / visualViewport.width * 100;
+
+        element.style.left = x + "%";
+        first.style.width = x + "%";
+        second.style.width = (100 - x) + "%";
     }
 }

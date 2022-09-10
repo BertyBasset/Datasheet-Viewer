@@ -2,21 +2,25 @@
     box-sizing: border-box;
 }
 
+#container {
+    display: flex;
+    flex-wrap: nowrap;
+}
 body{
     overflow:hidden;
     margin:0;
     background-color: #323639;
 }
-
 #left{
     float:left;
     width: 25%;
     height:100vh;
     display: flex;
     flex-direction: column;
-    background-color: #323639;
     border-style: none;
-    box-shadow: 2px 2px 2px #00000080;
+    box-shadow: 1px 0px 5px #00000080;
+    background-color: #323639;
+    z-index: 1;
 }
 #list{
     overflow-y: auto;
@@ -28,6 +32,14 @@ body{
     margin-left: -20;
     color: white;
     font-family: sans-serif;
+    height: 100%;
+}
+#splitter{
+    cursor: col-resize;
+    width: 5px;
+    height: 100vh;
+    position: absolute;
+    left: 25%;
 }
 #pdfViewer{
     /*
@@ -35,7 +47,7 @@ body{
     object-fit: contain;
     */
     display: block;
-    width: 74.9%;
+    width: 75%;
     height:100vh;
     margin-left: auto;
     margin-right: 0;
@@ -63,21 +75,62 @@ body{
     padding: 5px;
     box-shadow: 2px 2px 2px #00000080;
     position: absolute;
-   
-    /* Position the tooltip text - see examples below! */
-    /*position:absolute;*/
-    z-index: 1;
 }
 
 .pdflink:hover .tooltip{
     visibility: visible;
 }
 #searchbar{
-    min-height: 55px;
-    background-color: #323639;
+    min-height: 56px;
     border-style: none;
-    box-shadow: 2px 2px 2px #00000080;
+    box-shadow: 1px 1px 5px #00000080;
     color: white;
     font-size: large;
     padding: 10 20 10 20;
+    background-color: #323639;
 }
+textarea:focus, input:focus {
+    outline: none;
+}
+
+
+/* Testing ground */
+/*
+body {
+    background-color: #E6E6E6;
+}
+#searchbar{
+    min-height: 41px;
+    max-height: 41px;
+    background-color: #F7F7F7;
+    border-style: solid;
+    border-color: #BEBEBE;
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0px;
+    box-shadow: none;
+    color: black;
+}
+#left{
+    box-shadow: none;
+    background-color: #E6E6E6;
+}
+#list {
+    border-style: solid;
+    border-color: #BEBEBE;
+    border-width: 1px;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    box-shadow: none;
+    color: black;
+}
+.pdflink{
+    color: #767676;
+}
+.pdflink:hover {
+    cursor:pointer;
+    color: #767676;
+    background-color: #EAEAEA;
+}
+*/

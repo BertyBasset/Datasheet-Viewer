@@ -11,7 +11,7 @@
     },
     {
         "Path": "Logic ICs\\MC14500B_Handbook.pdf",
-        "Title": "MC14500 1-bit ",
+        "Title": "MC14500 1-bit Industrial Control Unit",
         "Subject": "MPUs and PIAs",
         "Author": "Motorola Semiconductor Products Inc.",
         "Pages": 112,
@@ -385,7 +385,7 @@
     },
     {
         "Path": "Logic ICs\\40181 4bit ALU.pdf",
-        "Title": "CD40181BMS 4-Bit Arithmetic Logic Unit",
+        "Title": "40181 4-Bit Arithmetic Logic Unit",
         "Subject": "Logic",
         "Author": "Intersil",
         "Pages": 10,
@@ -396,7 +396,7 @@
     },
     {
         "Path": "Logic ICs\\40245.pdf",
-        "Title": "HEF40245B Octal Bus Transceiver with 3-State Outputs",
+        "Title": "40245 Octal Bus Transceiver with 3-State Outputs",
         "Subject": "Logic",
         "Author": "Philips",
         "Pages": 6,
@@ -722,7 +722,7 @@
         ]
     },
     {
-        "Path": "MPUS and PIAs\\w65c02.pdf",
+        "Path": "MPUS and PIAs\\w65c02s.pdf",
         "Title": "W65C02 8-bit Microprocessor",
         "Subject": "MPUs and PIAs",
         "Author": "Western Design Centre",
@@ -1303,7 +1303,7 @@
     },   
     {
         "Path": "Logic ICs\\40192_40193.pdf",
-        "Title": "40192, 40193 Presettable Up?Dpwn Counter",
+        "Title": "40192, 40193 Presettable Up/Down Counter",
         "Subject": "Logic",
         "Author": "Texas Instruments",
         "Pages": 20,
@@ -1334,5 +1334,489 @@
             "40257",
             "CMOS"
         ]
-    }    
+    },
+    {
+        "Path": "DataBooks\\1971_DATA_Book_Transistor_Edition_30.pdf",
+        "Title": "Transistor D.A.T.A.BOOK (Spring 1971)",
+        "Subject": "Data Books",
+        "Author": "D.A.T.A. Reference Standard for Industry",
+        "Pages": 327,
+        "Keywords": [
+            "DataBook",
+            "Data Book"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1974_Harris_CMOS_Data_Book.pdf",
+        "Title": "Harris CMOS Data Book (1974)",
+        "Subject": "Data Books",
+        "Author": "Harris Semiconductors",
+        "Pages": 194,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1978_Fairchild_Diode_Data_Book.pdf",
+        "Title": "Diode Data Book (1978)",
+        "Subject": "Data Books",
+        "Author": "Fairchild Semiconductor",
+        "Pages": 210,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },    
+    {
+        "Path": "DataBooks\\1980_DATA_Book_Transistor_Discontinued_Devices_Edition_16.pdf",
+        "Title": "Transistor - Discontinued Devices (1980)",
+        "Subject": "Data Books",
+        "Author": "D.A.T.A. Book Electronic Information Service",
+        "Pages": 180,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },    
+    {
+        "Path": "DataBooks\\1984RockwellDataBook.pdf",
+        "Title": "Rockwell Data Book (1984)",
+        "Subject": "Data Books",
+        "Author": "Rockwell International",
+        "Pages": 1360,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },    
+    {
+        "Path": "DataBooks\\1985_Fairchild_Discrete_Data_Book.pdf",
+        "Title": "Fairchild Dicrete Data Book (1985)",
+        "Subject": "Data Books",
+        "Author": "Fairchild Semiconductor",
+        "Pages": 602,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },    
+    {
+        "Path": "https://ia800801.us.archive.org/2/items/bitsavers_dataInc198ion54_123911610/1987_DATA_Book_Diodes_Edition_54.pdf",
+        "Title": "Diode D.A.T.A. BOOK (1987)",
+        "Subject": "Data Books",
+        "Author": "D.A.T.A. Book Electronic Information Service",
+        "Pages": 727,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },    
+    {
+        "Path": "DataBooks\\1987_Interface_Circuits_Data_Book.pdf",
+        "Title": "TI Interface Circuits Data Book (1987)",
+        "Subject": "Data Books",
+        "Author": "Texas Instruments",
+        "Pages": 1438,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },    
+    {
+        "Path": "DataBooks\\1988_Programmable_Logic_Data_Book.pdf",
+        "Title": "TI Programmable Logic Data Book (1988)",
+        "Subject": "Data Books",
+        "Author": "Texas Instruments",
+        "Pages": 484,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },    
+    {
+        "Path": "DataBooks\\1988_Samsung_Transistor_Data_Book_Vol_1.pdf",
+        "Title": "Samsung Transistor Data Book Vol 1 (1988)",
+        "Subject": "Data Books",
+        "Author": "Samsung",
+        "Pages": 698,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },    
+    {
+        "Path": "DataBooks\\1990_Analog_Devices_Linear_Products_Databook.pdf",
+        "Title": "Analog Devices Linear Products Data Book (1990/91)",
+        "Subject": "Data Books",
+        "Author": "Linear Devices",
+        "Pages": 1201,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },    
+    {
+        "Path": "DataBooks\\1990_Microchip_Data_Book.pdf",
+        "Title": "Microchip Data Book (1990)",
+        "Subject": "Data Books",
+        "Author": "Microchip",
+        "Pages": 608,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },    
+    {
+        "Path": "DataBooks\\1993_Siemens_Optoelectronics_Data_Book.pdf",
+        "Title": "Siemens Optoelectronics Data Book (1993)",
+        "Subject": "Data Books",
+        "Author": "Siemens",
+        "Pages": 1091,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },    
+    {
+        "Path": "DataBooks\\1995_Micron_DRAM_Data_Book.pdf",
+        "Title": "Micron Dram data Book (1995)",
+        "Subject": "Data Books",
+        "Author": "Micron Technology Inc.",
+        "Pages": 994,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1987_Fairchild_Linear_Data_Book.pdf",
+        "Title": "Fairchild Linear Data Book (1987)",
+        "Subject": "Data Books",
+        "Author": "Fairchild Semiconductor",
+        "Pages": 1121,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },        {
+        "Path": "DataBooks\\MOSTEK_1979_Microcomputer_Data_Book.pdf",
+        "Title": "Mostek Microcomputer Data Book (1979)",
+        "Subject": "Data Books",
+        "Author": "Mostek",
+        "Pages": 851,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\Transistor and Diode Databook 1st ed 1973.pdf",
+        "Title": "TI The Transistor and Diode Data Book (1973)",
+        "Subject": "Data Books",
+        "Author": "Texas Instruments",
+        "Pages": 1236,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1977_TI_Bipolar_Microcomputer_Components_Data_Book.pdf",
+        "Title": "The Bipolar Microcomputer Components Data Book for Design Engineers (1977)",
+        "Subject": "Data Books",
+        "Author": "Texas Instruments",
+        "Pages": 288,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1979_Intersil_Data_Book-compressed.pdf",
+        "Title": "Intersil Data Book (1979)",
+        "Subject": "Data Books",
+        "Author": "Intersil",
+        "Pages": 1122,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1984_Motorola_Memory_Data_Book.pdf",
+        "Title": "Motorola Memory Data Book (1984)",
+        "Subject": "Data Books",
+        "Author": "Motorola Semiconductor Products Inc.",
+        "Pages": 430,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "Databooks\\1986_Fairchild_Memory_Data_Book.pdf",
+        "Title": "Fairchild Memory Data Book (1986)",
+        "Subject": "Data Books",
+        "Author": "Fairchild Semiconductor",
+        "Pages": 284,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\Supplement to The TTL Data Book for Design Engineers_2nd_Edition-compressed.pdf",
+        "Title": "Supplement to the TTL Data Book for Design Engineers",
+        "Subject": "Data Books",
+        "Author": "Texas Instruments",
+        "Pages": 60,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\Inmos_Data_Book_1986.pdf",
+        "Title": "Inmos Data Book (1986)",
+        "Subject": "Data Books",
+        "Author": "inmos",
+        "Pages": 290,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\The_TTL_Data_Book_Vol_1_1984.pdf",
+        "Title": "The TTL Data Book Volume 1 (1984)",
+        "Subject": "Data Books",
+        "Author": "Texas Instruments",
+        "Pages": 339,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\The_TTL_Data_Book_Vol_4_1986.pdf",
+        "Title": "The TTL Data Book Volume 4 (1986)",
+        "Subject": "Data Books",
+        "Author": "Texas Instruments",
+        "Pages": 445,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1985_The_TTL_Data_Book_Vol_2.pdf",
+        "Title": "The TTL Data Book Volume 2 (1985)",
+        "Subject": "Data Books",
+        "Author": "Texas Instruments",
+        "Pages": 1402,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1984_The_TTL_Data_Book_Vol_3.pdf",
+        "Title": "The TTL Data Book Volume 3 (1984)",
+        "Subject": "Data Books",
+        "Author": "Texas Instruments",
+        "Pages": 793,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1981_The_TTL_Data_Book_For_Design_Engineers_2ed.pdf",
+        "Title": "The TTL Data Book for Design Engineers 2nd Edition (1981)",
+        "Subject": "Data Books",
+        "Author": "Texas Instruments",
+        "Pages": 835,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1987_Xicor_Data_Book.pdf",
+        "Title": "Xicor Data Book (1987)",
+        "Subject": "Data Books",
+        "Author": "Xicor",
+        "Pages": 691,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1976_National_TTL_Databook-compressed.pdf",
+        "Title": "TTL Databook (1976)",
+        "Subject": "Data Books",
+        "Author": "National Semiconductor",
+        "Pages": 561,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1980_Memory_Data_Book.pdf",
+        "Title": "Memory Databook (1980)",
+        "Subject": "Data Books",
+        "Author": "National Semiconductor",
+        "Pages": 446,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1985_Zilog_Data_Book.pdf",
+        "Title": "Zilog Data Book (1985)",
+        "Subject": "Data Books",
+        "Author": "Zilog",
+        "Pages": 1056,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\SynertekDataBook1983.pdf",
+        "Title": "Synertek Data Book (1983)",
+        "Subject": "Data Books",
+        "Author": "Synertek",
+        "Pages": 553,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1989_CMOS_BiCMOS_Data_Book.pdf",
+        "Title": "CMOS BiCMOS Data Book",
+        "Subject":"Data Books",
+        "Author": "Cypress Semiconductor",
+        "Pages": 1017,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1990_Xicor_Data_Book.pdf",
+        "Title": "Xicor Data Book (1990)",
+        "Subject": "Data Books",
+        "Author": "Xicor",
+        "Pages": 641,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\Texas_Instruments_MOS_Memory_Data_Book_1984.pdf",
+        "Title": "MOS Memory Data Book (1984)",
+        "Subject": "Data Books",
+        "Author": "Texas Instruments",
+        "Pages": 468,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\UMC Computer IC's Data Book 1990-1991.pdf",
+        "Title": "Computer ICs (1990/1)",
+        "Subject": "Data Books",
+        "Author": "United Microelectronics Corporation",
+        "Pages": 922,
+        "Keywords": [
+            "Data Book",
+            "DataBook",
+            "UMC"
+        ]
+    },
+    {
+        "Path": "DataBooks\\UMC_Data_Book_1986.pdf",
+        "Title": "UMC Data Book (1986/7)",
+        "Subject": "Data Books",
+        "Author": "United Microelectronics Corporation",
+        "Pages": 454,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\MonolithicMemories-MMI-BipolarLSI1982DatabookOCR-compressed.pdf",
+        "Title": "Bipolar LSI Databook (1982)",
+        "Subject": "Data Books",
+        "Author": "Monolithic Memories",
+        "Pages": 365,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1995_Integrated_Circuit_Systems_Data_Book.pdf",
+        "Title": "Integrated Circuit Systems, Inc. Data Book (1995)",
+        "Subject": "Data Books",
+        "Author": "Integrated Systems, Inc.",
+        "Pages": 910,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1985_Fairchild_FAST_Data_Book.pdf",
+        "Title": "Fairchild Advanced Schottky TTL",
+        "Subject": "Data Books",
+        "Author": "Fairchild Semiconductor",
+        "Pages": 687,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1982_Zilog_Data_Book.pdf",
+        "Title": "Zilog Data book (1982/3)",
+        "Subject": "Data Books",
+        "Author": "Zilog",
+        "Pages": 650,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1983_Intersil_Data_Book.pdf",
+        "Title": "Hot Ideas in CMOS (1983)",
+        "Subject": "Data Books",
+        "Author": "Intersil",
+        "Pages": 968,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    },
+    {
+        "Path": "DataBooks\\1986_Harris_Analog_Product_Data_Book.pdf",
+        "Title": "Analog Product Data Book (1986)",
+        "Subject": "Data Books",
+        "Author": "Harris Semiconductors",
+        "Pages": 898,
+        "Keywords": [
+            "Data Book",
+            "DataBook"
+        ]
+    }
 ]
