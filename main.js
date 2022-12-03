@@ -138,7 +138,43 @@ function matchStyle() {
     // Edge (based on chromium) detection
     let isEdgeChromium = isChrome && (navigator.userAgent.indexOf("Edg") != -1);
 
-    if(isEdge || isEdgeChromium) {
+    if(isFirefox) {
+        let style = `
+        body {
+            background-color: #2a2a2e;
+        }
+        #left {
+            background-color: #323234;
+            box-shadow: 1px 0px 0px #0c0c0d;
+        }
+        #list {
+            color: #f9f9fa;
+        }
+        .pdflink {
+            color: #c4c4c5;
+            border-radius: 3px;
+            padding-left: 5px;
+            margin-left: -5;
+        }
+        .pdflink:hover {
+            color: #c4c4c5;
+            background-color: #666667;
+            cursor: default;
+        }
+        #searchbar {
+            min-height: 32px;
+            max-height: 32px;
+            box-shadow: 1px 1px 0px #0c0c0d;
+            background-color: #38383d;
+            color: #f9f9fa;
+            font-size: medium;
+        }
+        `
+        let styleSheet = document.createElement("style");
+        styleSheet.innerText = style;
+        document.head.appendChild(styleSheet);
+    }
+    else if(isEdge || isEdgeChromium) {
         let style = `
         body {
             background-color: #E6E6E6;

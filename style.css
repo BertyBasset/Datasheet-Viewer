@@ -93,44 +93,35 @@ textarea:focus, input:focus {
     outline: none;
 }
 
-
 /* Testing ground */
 /*
 body {
-    background-color: #E6E6E6;
+    background-color: #2a2a2e;
 }
-#searchbar{
-    min-height: 41px;
-    max-height: 41px;
-    background-color: #F7F7F7;
-    border-style: solid;
-    border-color: #BEBEBE;
-    border-width: 1px;
-    border-top: 0;
-    border-left: 0px;
-    box-shadow: none;
-    color: black;
-}
-#left{
-    box-shadow: none;
-    background-color: #E6E6E6;
+#left {
+    background-color: #323234;
+    box-shadow: 1px 0px 0px #0c0c0d;
 }
 #list {
-    border-style: solid;
-    border-color: #BEBEBE;
-    border-width: 1px;
-    border-left: 0;
-    border-top: 0;
-    border-bottom: 0;
-    box-shadow: none;
-    color: black;
+    color: #f9f9fa;
 }
-.pdflink{
-    color: #767676;
+.pdflink {
+    color: #c4c4c5;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-left: -5;
 }
 .pdflink:hover {
-    cursor:pointer;
-    color: #767676;
-    background-color: #EAEAEA;
+    color: #c4c4c5;
+    background-color: #666667;
+    cursor: default;
+}
+#searchbar {
+    min-height: 32px;
+    max-height: 32px;
+    box-shadow: 1px 1px 0px #0c0c0d;
+    background-color: #38383d;
+    color: #f9f9fa;
+    font-size: medium;
 }
 */

@@ -2141,5 +2141,61 @@
         "Keywords": [
             
         ]
+    },
+    {
+        "Path": "Microcontrollers\\TMS_1000_Series_Data_Manual_Dec76.pdf",
+        "Title": "TMS 1000 Series Data Manual",
+        "Subject": "Microcontroller",
+        "Author": "Texas Instruments",
+        "Pages": 46,
+        "Keywords": [
+            "MCU",
+            "TMS1000",
+            "TMS1070",
+            "TMS1100",
+            "TMS1200",
+            "TMS1270",
+            "TMS1300",
+            "TMS 1000",
+            "TMS 1070",
+            "TMS 1100",
+            "TMS 1200",
+            "TMS 1270",
+            "TMS 1300"
+        ]
+    },
+    {
+        "Path": "Microcontrollers\\TMS1000_Series_Programmer's_reference_manual.pdf",
+        "Title": "TMS 1000 Series Programmer's Reference Manual",
+        "Subject": "Microcontroller",
+        "Author": "Texas Instruments",
+        "Pages": 232,
+        "Keywords": [
+            "MCU",
+            "TMS1000",
+            "TMS1070",
+            "TMS1100",
+            "TMS1270",
+            "TMS1200",
+            "TMS1300",
+            "TMS 1000",
+            "TMS 1070",
+            "TMS 1100",
+            "TMS 1270",
+            "TMS 1200",
+            "TMS 1300"
+        ]
+    },
+    {
+        "Path": "Opto\\HD44780.pdf",
+        "Title": "HD44780 LCD Character Display Driver",
+        "Subject": "Opto",
+        "Author": "Hitachi",
+        "Pages": 60,
+        "Keywords": [
+            "lcd",
+            "alphanumeric",
+            "text"
+        ]
     }
 ]
