@@ -811,7 +811,7 @@
         "Author": "Renesas",
         "Subject": "Logic",
         "Keywords": [
-            ""
+            "CMOS"
         ],
         "Pages": 15
     },
@@ -1647,6 +1647,22 @@
         ],
         "Pages": 22
     },
+    {
+        "Path": "Misc ICs\\MAX7426-MAX7427 LowPass Filter.pdf",
+        "Title": "MAX7426-MAX7427 5th order, lowpass, eliptic, switched-capacitor LPF",
+        "Author": "Maxim",
+        "Subject": "ICs Misc",
+        "Keywords": [
+            "MAX7426",
+            "MAX7427",
+            " datasheet",
+            " datasheets",
+            " pdf",
+            " National Semiconductor",
+            " Maxim"
+        ],
+        "Pages": 12
+    },    
     {
         "Path": "Misc ICs\\MAX4051-MAX4053A Analog Switches.pdf",
         "Title": "MAX4051, MAX4052, MAX4053 Analog Multiplexer/Switch",
