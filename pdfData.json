@@ -510,6 +510,25 @@
         "Pages": 8
     },
     {
+        "Path": "Analog-Digital Convertors\\AD558 uP compat 8bit DAC.pdf",
+        "Title": "AD558 8-bit DAC",
+        "Author": "",
+        "Subject": "DA Converter",
+        "Keywords": ["DAC"],
+        "Pages": 9
+    },
+    {
+        "Path": "Analog-Digital Convertors\\8 bit multiplying DAC08.pdf",
+        "Title": "DAC08 8-bit Multiplying D/A converter",
+        "Author": "",
+        "Subject": "DAC",
+        "Keywords": [
+            "Multiplying",
+            "DAC"
+        ],
+        "Pages": 21
+    },
+    {
         "Path": "Capacitor\\ESP-PSRAM64.pdf",
         "Title": "ESP-PSRAM64_ESP-PSRAM64H_Datasheet__EN.pages",
         "Author": "",
@@ -1210,6 +1229,17 @@
             " Microcontroller"
         ],
         "Pages": 170
+    },
+    {
+        "Path": "Microcontrollers\\PIC18F1220_1320.pdf",
+        "Title": "PIC18F1220/1320 FLASH-Based 8-Bit CMOS MCU",
+        "Author": "Microchip Technology Inc.",
+        "Subject": "Microcontroller",
+        "Keywords": [
+            "PIC18F1220",
+            "PIC18F1320"
+        ],
+        "Pages": 296       
     },
     {
         "Path": "Microcontrollers\\Pico_Audio_DAC.pdf",
