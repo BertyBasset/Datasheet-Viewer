@@ -513,7 +513,7 @@
         "Path": "Analog-Digital Convertors\\AD558 uP compat 8bit DAC.pdf",
         "Title": "AD558 8-bit DAC",
         "Author": "",
-        "Subject": "DA Converter",
+        "Subject": "AD/DA Converters",
         "Keywords": ["DAC"],
         "Pages": 9
     },
@@ -521,7 +521,7 @@
         "Path": "Analog-Digital Convertors\\8 bit multiplying DAC08.pdf",
         "Title": "DAC08 8-bit Multiplying D/A converter",
         "Author": "",
-        "Subject": "DAC",
+        "Subject": "AD/DA Converters",
         "Keywords": [
             "Multiplying",
             "DAC"
