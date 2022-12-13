@@ -1295,6 +1295,15 @@
         "Pages": 636
     },
     {
+        "Path": "Microcontrollers\\PiPicoWiFi.pdf",
+        "Title": "Rasperry Pi Pico W (WiFi)",
+        "Author": "",
+        "Subject": "",
+        "Keywords": [],
+        "Pages": 23
+    },
+
+    {
         "Path": "Microcontrollers\\SD Card.pdf",
         "Title": "Microsoft Word - Document1",
         "Author": "Robin.Griffiths",
@@ -1819,6 +1828,19 @@
         "Subject": "MPUs and PIAs",
         "Keywords": [
             "6502"
+        ],
+        "Pages": 178
+    },
+    {
+        "Path": "MPUS and PIAs\\w65c816s.pdf",
+        "Title": "6502 compatible 16-bit Microprocessor",
+        "Author": "WDC",
+        "Subject": "MPUs and PIAs",
+        "Keywords": [
+            "6502",
+            "65C816",
+            "65816",
+            "W65816"
         ],
         "Pages": 178
     },
