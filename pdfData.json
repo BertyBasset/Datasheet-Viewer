@@ -8,6 +8,20 @@
         "Pages": 1
     },
     {
+        "Path": "Amplifiers\\MAX4493-MAX4495.pdf",
+        "Title": "MAX4493/04/95 Low Power Dual Supply Rail to Rail opamp",
+        "Author": "Maxim",
+        "Subject": "Amplifier",
+        "Keywords": [
+            "",
+            "Rail to Rail",
+            "MAX4493",
+            "MAX4494",
+            "MAX4495"
+        ],
+        "Pages": 15
+    },
+    {
         "Path": "Amplifiers\\741 single Op Amp.pdf",
         "Title": "LM741 Operational Amplifier",
         "Author": "Texas Instruments, Incorporated [SNOSC25,D\n]",
