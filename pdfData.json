@@ -8,6 +8,20 @@
         "Pages": 1
     },
     {
+        "Path": "Amplifiers\\MAX4493-MAX4495.pdf",
+        "Title": "MAX4493/04/95 Low Power Dual Supply Rail to Rail opamp",
+        "Author": "Maxim",
+        "Subject": "Amplifier",
+        "Keywords": [
+            "",
+            "Rail to Rail",
+            "MAX4493",
+            "MAX4494",
+            "MAX4495"
+        ],
+        "Pages": 15
+    },
+    {
         "Path": "Amplifiers\\741 single Op Amp.pdf",
         "Title": "LM741 Operational Amplifier",
         "Author": "Texas Instruments, Incorporated [SNOSC25,D\n]",
@@ -510,6 +524,25 @@
         "Pages": 8
     },
     {
+        "Path": "Analog-Digital Convertors\\AD558 uP compat 8bit DAC.pdf",
+        "Title": "AD558 8-bit DAC",
+        "Author": "",
+        "Subject": "AD/DA Converters",
+        "Keywords": ["DAC"],
+        "Pages": 9
+    },
+    {
+        "Path": "Analog-Digital Convertors\\8 bit multiplying DAC08.pdf",
+        "Title": "DAC08 8-bit Multiplying D/A converter",
+        "Author": "",
+        "Subject": "AD/DA Converters",
+        "Keywords": [
+            "Multiplying",
+            "DAC"
+        ],
+        "Pages": 21
+    },
+    {
         "Path": "Capacitor\\ESP-PSRAM64.pdf",
         "Title": "ESP-PSRAM64_ESP-PSRAM64H_Datasheet__EN.pages",
         "Author": "",
@@ -811,7 +844,7 @@
         "Author": "Renesas",
         "Subject": "Logic",
         "Keywords": [
-            ""
+            "CMOS"
         ],
         "Pages": 15
     },
@@ -1212,6 +1245,17 @@
         "Pages": 170
     },
     {
+        "Path": "Microcontrollers\\PIC18F1220_1320.pdf",
+        "Title": "PIC18F1220/1320 FLASH-Based 8-Bit CMOS MCU",
+        "Author": "Microchip Technology Inc.",
+        "Subject": "Microcontroller",
+        "Keywords": [
+            "PIC18F1220",
+            "PIC18F1320"
+        ],
+        "Pages": 296       
+    },
+    {
         "Path": "Microcontrollers\\Pico_Audio_DAC.pdf",
         "Title": "PCM510xA Stereo DAC with PLL and 32 bit, 384kHz PCM INterface",
         "Author": "Texas Instruments, Incorporated [SLAS859,C\n]",
@@ -1264,6 +1308,15 @@
         "Keywords": [],
         "Pages": 636
     },
+    {
+        "Path": "Microcontrollers\\PiPicoWiFi.pdf",
+        "Title": "Rasperry Pi Pico W (WiFi)",
+        "Author": "",
+        "Subject": "",
+        "Keywords": [],
+        "Pages": 23
+    },
+
     {
         "Path": "Microcontrollers\\SD Card.pdf",
         "Title": "Microsoft Word - Document1",
@@ -1638,6 +1691,8 @@
         "Keywords": [
             "LMF60",
             " datasheet",
+            " filter",
+            " low pass",
             " datasheets",
             " pdf",
             " National Semiconductor",
@@ -1647,6 +1702,24 @@
         ],
         "Pages": 22
     },
+    {
+        "Path": "Misc ICs\\MAX7426-MAX7427 LowPass Filter.pdf",
+        "Title": "MAX7426-MAX7427 5th order, lowpass, eliptic, switched-capacitor LPF",
+        "Author": "Maxim",
+        "Subject": "ICs Misc",
+        "Keywords": [
+            "MAX7426",
+            "MAX7427",
+            " filter",
+            " low pass",
+            " datasheet",
+            " datasheets",
+            " pdf",
+            " National Semiconductor",
+            " Maxim"
+        ],
+        "Pages": 12
+    },    
     {
         "Path": "Misc ICs\\MAX4051-MAX4053A Analog Switches.pdf",
         "Title": "MAX4051, MAX4052, MAX4053 Analog Multiplexer/Switch",
@@ -1769,6 +1842,19 @@
         "Subject": "MPUs and PIAs",
         "Keywords": [
             "6502"
+        ],
+        "Pages": 178
+    },
+    {
+        "Path": "MPUS and PIAs\\w65c816s.pdf",
+        "Title": "6502 compatible 16-bit Microprocessor",
+        "Author": "WDC",
+        "Subject": "MPUs and PIAs",
+        "Keywords": [
+            "6502",
+            "65C816",
+            "65816",
+            "W65816"
         ],
         "Pages": 178
     },
