@@ -4,8 +4,12 @@ var extras = [];
 var items = [];
 var subjects = {};
 
+var splitter_pos = 25;
+
 window.addEventListener('load', function () {
     let files = 0;
+    
+    matchStyle();
 
     fetch("./pdfData.json")
     .then((response) => response.json())
@@ -55,8 +59,15 @@ function main() {
         item.innerText = pdf.Title;
         item.setAttribute("data-metadata", JSON.stringify(pdf))
         item.style.listStyle = 'disc';
-        item.onclick = function() {
+        item.onclick = function(e) {
             pdfViewer.src = JSON.parse(this.getAttribute('data-metadata')).Path;
+
+            let openLinks = document.getElementsByClassName("open");
+            for(l of openLinks) {
+                l.classList.remove("open");
+            }
+
+            e.target.classList.add("open");
         }
 
         //let tooltip = document.createElement('span');
@@ -108,11 +119,25 @@ function main() {
             }
         }
     }
+    //Firefox preserves input on refresh, so we need to trigger the event manually
+    searchbar.oninput({target: searchbar});
+
+    //Some browsers also preserve the loaded pdf, so need to select the corresponding item
+    //This approach does not work in Firefox, as it does not preserve the pdfViewer.src
+    let pdfViewer = document.getElementById("pdfViewer");
+    if(pdfViewer.src != "") {
+        let pdf = index.find((f) => f.Path == pdfViewer.src);
+        let item = items.find((i) => JSON.parse(i.getAttribute('data-metadata')).Path == pdfViewer.src);
+        item.classList.add("open");
+    }
 
     let splitter = document.getElementById("splitter");
     dragElement(splitter);
+    splitter_pos = 25;
 
-    matchStyle();
+    //document.getElementById("collapse").addEventListener("click", onCollapseButtonClick);
+    //window.addEventListener("click", onCollapseButtonClick);
+    document.getElementById("collapse").onclick = onCollapseButtonClick;
 
     window.addEventListener("keydown",function (e) {
         if (e.key === "F3" || (e.ctrlKey && e.key == "f")) { 
@@ -122,6 +147,7 @@ function main() {
     })
     searchbar.focus();
 }
+
 function matchStyle() {
     // Firefox 1.0+
     let isFirefox = typeof InstallTrigger !== 'undefined';
@@ -156,7 +182,7 @@ function matchStyle() {
             padding-left: 5px;
             margin-left: -5;
         }
-        .pdflink:hover {
+        .pdflink:hover, .pdflink.open {
             color: #c4c4c5;
             background-color: #666667;
             cursor: default;
@@ -168,6 +194,18 @@ function matchStyle() {
             background-color: #38383d;
             color: #f9f9fa;
             font-size: medium;
+        }
+        #collapse {
+            min-height: 32px;
+            max-height: 32px;
+            box-shadow: 1px 1px 0px #0c0c0d;
+            background-color: #38383d;
+            color: #f9f9fa;
+            font-size: large;
+            --border-radius: 3px;
+        }
+        #collapse:hover {
+            background-color: #666667;
         }
         `
         let styleSheet = document.createElement("style");
@@ -208,7 +246,7 @@ function matchStyle() {
         .pdflink{
             color: #767676;
         }
-        .pdflink:hover {
+        .pdflink:hover, .pdflink.open {
             cursor:pointer;
             color: #767676;
             background-color: #EAEAEA;
@@ -219,12 +257,39 @@ function matchStyle() {
         document.head.appendChild(styleSheet);
     }
 }
+
+var collapsed = false;
+
+function onCollapseButtonClick(e) {
+    let left = document.getElementById("left");
+    let right = document.getElementById("pdfViewer");
+    let splitter = document.getElementById("splitter");
+
+    if(collapsed) {
+        collapsed = false;
+
+        splitter.style.left = splitter_pos + "%";
+        left.style.width = splitter_pos + "%";
+        right.style.width = (100 - splitter_pos) + "%";
+    }
+    else {
+        let buttonWidth = document.getElementById("collapse").offsetWidth
+        
+        collapsed = true;
+
+        splitter.style.left = buttonWidth + "px";
+        left.style.width = buttonWidth + "px";
+        right.style.width = `calc(100vw - ${buttonWidth}px)`;
+    }
+}
+
 function dragElement(element)
 {
     const first  = document.getElementById("left");
     const second = document.getElementById("pdfViewer");
 
     element.onmousedown = onMouseDown;
+    splitter_pos = first.width;
 
     function onMouseDown(e)
     {
@@ -243,5 +308,8 @@ function dragElement(element)
         element.style.left = x + "%";
         first.style.width = x + "%";
         second.style.width = (100 - x) + "%";
+
+        splitter_pos = x;
+        collapsed = false;
     }
 }

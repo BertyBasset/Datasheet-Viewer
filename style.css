@@ -15,14 +15,21 @@ body{
     float:left;
     width: 25%;
     height:100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    --flex-direction: column;
+    grid-template-areas: "collapse search"
+                         "  list    list ";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: auto 1fr;
     border-style: none;
     box-shadow: 1px 0px 5px #00000080;
     background-color: #323639;
     z-index: 1;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 #list{
+    grid-area: list;
     overflow-y: auto;
     overflow-x: hidden;
     margin-top: 0;
@@ -58,7 +65,7 @@ body{
     /*text-decoration: underline;*/
     color: gainsboro;
 }
-.pdflink:hover {
+.pdflink:hover, .pdflink.open {
     cursor:pointer;
     
     text-decoration: underline;
@@ -81,6 +88,7 @@ body{
     visibility: visible;
 }
 #searchbar{
+    grid-area: search;
     min-height: 56px;
     border-style: none;
     box-shadow: 1px 1px 5px #00000080;
@@ -88,6 +96,16 @@ body{
     font-size: large;
     padding: 10 20 10 20;
     background-color: #323639;
+}
+#collapse {
+    grid-area: collapse;
+    min-height: 56px;
+    box-shadow: 1px 1px 5px #00000080;
+    background-color: #323639;
+    color: white;
+    padding: 0 10px 0 10px;
+    border-style: none;
+    z-index: 2;
 }
 textarea:focus, input:focus {
     outline: none;
